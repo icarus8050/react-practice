@@ -4,6 +4,8 @@ import MyComponent from "./component/MyComponent";
 import MySecondComponent from "./component/MySecondComponent"
 import Counter from "./component/Counter";
 import Say from "./component/Say";
+import EventPractice from "./component/EventPractice";
+import FunctionalEventPractice from "./component/FunctionalEventPractice";
 
 class App extends Component {
     render() {
@@ -17,6 +19,8 @@ class App extends Component {
                 <Counter name={counter} number={10}/>
                 <hr/>
                 <Say/>
+                <EventPractice /><br/>
+                <FunctionalEventPractice />
             </div>
         );
     }
