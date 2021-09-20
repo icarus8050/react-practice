@@ -8,6 +8,7 @@ import EventPractice from "./component/EventPractice";
 import FunctionalEventPractice from "./component/FunctionalEventPractice";
 import ValidationSample from "./component/ValidationSample";
 import ScrollBox from "./component/ScrollBox";
+import IterationSample from "./component/IterationSample";
 
 class App extends Component {
     render() {
@@ -21,15 +22,17 @@ class App extends Component {
                 <Counter name={counter} number={10}/>
                 <hr/>
                 <Say/>
-                <EventPractice /><br/>
-                <FunctionalEventPractice />
+                <EventPractice/><br/>
+                <FunctionalEventPractice/>
                 <hr/>
-                <ValidationSample />
+                <ValidationSample/>
                 <hr/>
-                <ScrollBox ref={(ref) => this.scrollBox=ref}/>
+                <ScrollBox ref={(ref) => this.scrollBox = ref}/>
                 <button onClick={() => this.scrollBox.scrollToBottom()}>
                     맨 밑으로
                 </button>
+                <hr/>
+                <IterationSample/>
             </div>
         );
     }
