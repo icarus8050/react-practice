@@ -9,6 +9,7 @@ import FunctionalEventPractice from "./component/FunctionalEventPractice";
 import ValidationSample from "./component/ValidationSample";
 import ScrollBox from "./component/ScrollBox";
 import IterationSample from "./component/IterationSample";
+import SassComponent from "./component/SassComponent";
 
 class App extends Component {
     render() {
@@ -33,6 +34,8 @@ class App extends Component {
                 </button>
                 <hr/>
                 <IterationSample/>
+                <hr/>
+                <SassComponent/>
             </div>
         );
     }
