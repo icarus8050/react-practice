@@ -12,6 +12,7 @@ import IterationSample from "./component/IterationSample";
 import SassComponent from "./component/SassComponent";
 import Info from "./component/Info";
 import Average from "./component/Average";
+import EmotionComponent from "./component/EmotionComponent";
 
 class App extends Component {
     render() {
@@ -42,6 +43,8 @@ class App extends Component {
                 <Info/>
                 <hr/>
                 <Average/>
+                <hr/>
+                <EmotionComponent/>
             </div>
         );
     }
