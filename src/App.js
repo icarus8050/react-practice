@@ -10,6 +10,8 @@ import ValidationSample from "./component/ValidationSample";
 import ScrollBox from "./component/ScrollBox";
 import IterationSample from "./component/IterationSample";
 import SassComponent from "./component/SassComponent";
+import Info from "./component/Info";
+import Average from "./component/Average";
 
 class App extends Component {
     render() {
@@ -36,6 +38,10 @@ class App extends Component {
                 <IterationSample/>
                 <hr/>
                 <SassComponent/>
+                <hr/>
+                <Info/>
+                <hr/>
+                <Average/>
             </div>
         );
     }
