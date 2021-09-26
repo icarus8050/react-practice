@@ -13,6 +13,8 @@ import SassComponent from "./component/SassComponent";
 import Info from "./component/Info";
 import Average from "./component/Average";
 import EmotionComponent from "./component/EmotionComponent";
+import Todos from "./component/Todos";
+import CounterContainer from "./containers/CounterContainer";
 
 class App extends Component {
     render() {
@@ -45,6 +47,10 @@ class App extends Component {
                 <Average/>
                 <hr/>
                 <EmotionComponent/>
+                <hr/>
+                <CounterContainer/>
+                <hr/>
+                <Todos/>
             </div>
         );
     }
